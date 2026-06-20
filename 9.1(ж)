@@ -1,0 +1,7 @@
+rows = 6
+length = 6
+for i in range(rows):
+    for _ in range(length):
+        print(0, end=' ')
+    print()
+    length -= 1            
