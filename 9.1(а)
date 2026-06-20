@@ -1,0 +1,7 @@
+rows = 4
+cols = 3
+number = 8
+for _ in range(rows):
+    for _ in range(cols):
+        print(number, end=' ')
+    print()
