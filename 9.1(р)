@@ -1,0 +1,8 @@
+start = 101
+rows = 5
+cols = 5
+for i in range(rows):
+    base = start + i * 10
+    for j in range(cols):
+        print(base + j, end=' ')
+    print()
