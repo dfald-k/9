@@ -1,0 +1,6 @@
+num_rows = 7
+num_cols = 5
+for i in range(1, num_rows + 1):
+    for _ in range(num_cols):
+        print(i, end=' ')
+    print()
