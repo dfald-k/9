@@ -1,0 +1,6 @@
+start_num = 8
+rows = start_num
+for i in range(rows):
+    for num in range(start_num, start_num - (rows - i), -1):
+        print(num, end=' ')
+    print()
