@@ -1,0 +1,7 @@
+start = 5
+end = 9
+for num in range(start, end + 1):
+    count = end - num + 1
+    for _ in range(count):
+        print(num, end=' ')
+    print()
